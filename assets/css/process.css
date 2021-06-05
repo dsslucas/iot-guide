@@ -1,0 +1,32 @@
+header{
+    min-height: 50px;
+  }
+
+  .container{
+    margin-top: 10px;
+    display: grid;
+    text-align: justify;
+}
+
+.card{
+  box-shadow: 0 1px 4px 0 rgb(0,0,0);
+  transition: 0.3s;
+}
+
+footer{
+    background-color: silver;
+
+    padding-top: 10px;
+    bottom: calc(100vh - 625px);
+}
+ 
+  .nav-item{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  @media (max-width: 991px){
+      .image{
+        display: none;
+      }
+    }

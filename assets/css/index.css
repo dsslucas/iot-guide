@@ -1,0 +1,18 @@
+header{
+    min-height: 55px;
+}
+
+section{
+
+}
+
+footer{
+    background-color: darkgray;
+    padding-top: 12px;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: flex-end;
+}
+

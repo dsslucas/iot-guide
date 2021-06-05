@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final de Curso|Processos</title>
+    <link rel="stylesheet" href="assets/css/process.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Projeto Final</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">English</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/process.html">Processos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/tecnicas.html">Técnicas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="teoria1">
+        <div class="container">
+            <h2>Processos</h2>
+
+            <div class="d-flex">
+                <div class="p-2 flex-fill align-items-center">
+                    <p>A Engenharia de Requisitos dispõe de padrões para a realização de softwares capazes de atender as solicitações de seus clientes. Para tal, surge a importância de estabelecer um processo de execução com o intuito de ouvir, analisar, desenvolver e validar um software. Ainda no planejamento, um cenário para o processo varia de acordo com as especificações, políticas internas e fatores externos, segundo Rehman et al. <a href="#ref1">[1]</a>.</p>
+
+                    <hr>
+                    <h3>Etapas</h3>
+                    <p>Mesmo havendo a possibilidade dos processos poderem ser criados de formas diferentes, Pohl e Rupp <a href="#ref2">[2]</a> destaca em seu livro a importância destes passos: </p>
+                    <ul>
+                        <li>Elicitação: levantamento dos requisitos por parte dos clientes, usuários ou desenvolvedores, podendo serem baseadas em documentação, sistemas em operação e estudos de casos. Pode ser adotado casos de uso, reuniões, protótipos, dentre outros;</li>
+                        <li>Documentação: elaboração de um documento contendo um plano para o projeto, registrando os requisitos elicitados, servindo como recurso para consulta de eventuais dúvidas;</li>
+                        <li>Validação e verificação: partes que tem a finalidade de checar se o produto final está coerente com o que foi elaborado na fase de planejamento do software;</li>
+                        <li>Gerenciamento: envolve características que garantem a disponibilidade dos requisitos, possibilitando manutenções rápidas e completas, rastreabilidade e versionamento.</li>
+                     </ul>
+                </div>
+                <div class="p-2 flex-fill image">
+                    <img src="img/book.jpg" alt="Livro">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="teste2">
+        <div class="container">
+            <hr>
+            <h2>Processos da Engenharia de Requsitos voltadas a validação de requisitos em Internet das Coisas (IoT)</h2>
+            <p>Cada processo desenvolvido por diversos autores varia de acordo com sua especificação, proposta e situações específicas. Dos artigos revisados sobre validação de requisitos em Internet das coisas, categorizamos nas opções abaixo: </p>
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-fluxograma-tab" data-bs-toggle="pill" data-bs-target="#pills-fluxograma" type="button" role="tab" aria-controls="pills-fluxograma" aria-selected="true">Fluxogramas</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-diagrama-tab" data-bs-toggle="pill" data-bs-target="#pills-diagrama" type="button" role="tab" aria-controls="pills-diagrama" aria-selected="false">Diagramas</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-template-tab" data-bs-toggle="pill" data-bs-target="#pills-template" type="button" role="tab" aria-controls="pills-template" aria-selected="false">Templates</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-framework-tab" data-bs-toggle="pill" data-bs-target="#pills-framework" type="button" role="tab" aria-controls="pills-framework" aria-selected="false">Framework</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-documentacao-tab" data-bs-toggle="pill" data-bs-target="#pills-documentacao" type="button" role="tab" aria-controls="pills-documentacao" aria-selected="false">Documentação</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-modelos-tab" data-bs-toggle="pill" data-bs-target="#pills-modelos" type="button" role="tab" aria-controls="pills-modelos" aria-selected="false">Modelos</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-outros-tab" data-bs-toggle="pill" data-bs-target="#pills-outros" type="button" role="tab" aria-controls="pills-outros" aria-selected="false">Outros</button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-fluxograma" role="tabpanel" aria-labelledby="pills-fluxograma-tab">
+                    <div class="row flex-row">
+                        <div class="col-md-4">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">A Requirements Engineering Process for IoT Systems <a href="#ref3">[3]</a></h5>
+                                    <p class="card-text">Autores: Silva et al.</p>
+                                    <p class="card-text">TAGs: Fluxograma. Diagramas.</p>
+                                    <p class="card-text">Descrição: Através do uso de fluxograma e diagramas de casos de uso, busca descrever a operação de um sistema voltado aos estudos da Engenharia de Requisitos, estabelecendo suas etapas.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">REM4DSPL <a href="#ref4">[4]</a></h5>
+                                    <p class="card-text">Autores: Sousa et al.</p>
+                                    <p class="card-text">TAGs: Fluxograma.</p>
+                                    <p class="card-text">Descrição: É um método que consiste de utilizar conceitos da Engenharia de Requisitos para a Linha de Produtos de Software Dinâmico (DSPL). Voltada para aplicações comerciais e industriais, seu planejamento consiste na elaboração de fluxogramas para ilustrar o seu processo.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">General Software Engineering Methodology for IoT (GSEM-IoT) <a href="ref8">[8]</a></h5>
+                                    <p class="card-text">Autores: Franco Zambonelli.</p>
+                                    <p class="card-text">TAGs: Fluxograma. Diagrama.</p>
+                                    <p class="card-text">Descrição: O estudo de Zambonelli tem por objetivo englobar diversas atividades econômicas através do diagramas de atores. Apesar de não citar diretamente o uso de fluxogramas, Giray et al. <a href="ref9">[9]</a> cruza os cenários elaborados pelo autor com as características de fluxograma.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Modeling IoT aplications with SysML4IoT <a href="#ref5">[5]</a></h5>
+                                    <p class="card-text">Autores: Costa et al.</p>
+                                    <p class="card-text">TAGs: Fluxograma. Modelo.</p>
+                                    <p class="card-text">Descrição: Artigo voltado a resolução de problemas críticos que podem ocorrer na área de design, como a diversidade de meios para realizar o design gráfico e a falta de processos capazes de colher, em detalhes, os requisitos levantados por clientes. Para solucionar este imbróglio, os autores sugerem um processo que se baseia em três modelos: o primeiro, voltado à elicitação; o segundo, utilizando tabelas para análise de habilidades e responsabilidades dos stakeholders e; por último, adota o IoT DevProcess, desenvolvido com o intuito de solucionar a falta de métodos, conforme resolução SO/IEC/IEEE 15288:2015.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ignite <a href="ref06">[6]</a></h5>
+                                    <p class="card-text">Autores: Shama et al.</p>
+                                    <p class="card-text">TAGs: Fluxograma.</p>
+                                    <p class="card-text">Descrição: Os autores abordam todas as questões que permeiam a IoT, do projeto ao estágio final. Além disso, existe um ciclo que visa uma representação gráfica, baseando-se em fluxogramas.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Towards a catalog of conflicts for HCI quality characteristics in UbiComp and IoT applications: Process and first results <a href="#ref6">[6]</a></h5>
+                                    <p class="card-text">Autores: Carvalho et al.</p>
+                                    <p class="card-text">TAGs: Fluxograma. Diagrama.</p>
+                                    <p class="card-text">Descrição: Visando eliminar problemas de inconsistência no levantamentos de requisitos não-funcionais e suas consequências para dispositivos IoT, os autores construiram um processo capaz de eliminar este problema, onde cada etapa é concluída apenas com uma análise documental e um método ou técnica adotado para tal. Além disto, cada etapa do processo é catalogada em um banco de dados para fins de consulta. Como ilustração deste processo, utilizam um diagrama UML atrelado a fluxogramas. </p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">IoT Application Development <a href="ref7">[7]</a></h5>
+                                    <p class="card-text">Autores: Pankesh Patel e Damien Cassou</p>
+                                    <p class="card-text">TAGs: Fluxograma.</p>
+                                    <p class="card-text">Descrição: Visa reforçar de forma ampla os projetos que envolvem IoT, de forma a erradicar a exclusão de parâmetros para algumas áreas do projeto. Para tal, este processo é validado através de fluxogramas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-diagrama" role="tabpanel" aria-labelledby="pills-diagrama-tab">
+                    <div class="row flex-row" >
+                        <div class="col-md-4">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">A Requirements Engineering Process for IoT Systems <a href="#ref3">[3]</a></h5>
+                                    <p class="card-text">Autores: Silva et al.</p>
+                                    <p class="card-text">TAGs: Fluxograma. Diagramas.</p>
+                                    <p class="card-text">Descrição: Através do uso de fluxograma e diagramas de casos de uso, busca descrever a operação de um sistema voltado aos estudos da Engenharia de Requisitos, estabelecendo suas etapas.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">A UML-based Proposal for IoT System Requirements Specification<a href="#ref10">[10]</a></h5>
+                                    <p class="card-text">Autores: Gianna Reggio</p>
+                                    <p class="card-text">TAGs: Diagrama. Modelo.</p>
+                                    <p class="card-text">Descrição: Criado com o intuito de abranger as áreas de elicitação e especificação, a autora criou o IoTReq, que cria três modelos a fim de reforçar o domínio da IoT, um modelo esquemático dos sistemas (iterações, restrições e metas) e uma especificação destes objetivos com o auxílio de um diagrama UML.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly <a href="#ref14">[14]</a></h5>
+                                    <p class="card-text">Autores: Curumsing et al.</p>
+                                    <p class="card-text">TAGs: Diagrama.</p>
+                                    <p class="card-text">Descrição: Voltado para a terceira idade, o SofiHub aplica os conhecimentos da IoT para uma <i>smart home</i> para idosos, de modo a auxiliar suas rotinas, proporcionar conforto, amenizar os efeitos da solidão e tranquilizar seus parentes. Os autores adotam processos baseados em diagramas complexos a fim de relacionar objetivos emocionais e de sistema.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Detecting IoT applications opportunities and requirements elicitation: A design thinking based approach <a href="#ref23">[23]</a></h5>
+                                    <p class="card-text">Autores: Dantas et al.</p>
+                                    <p class="card-text">TAGs: Diagrama. Modelo. Outros.</p>
+                                    <p class="card-text">Descrição: Utilizando o Design Thinking, seu processo utiliza modelos iterativos e não-lineares, proposto por Rehman et al <a href="#ref1">[1]</a>. Além disto, os autores utilizam três metodologias, como o brainstorming, documentação e diagramas de afinidades dos usuários e clientes.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Towards Modelling and Analysis of Spatial and Temporal Requirements <a href="#ref11">[11]</a></h5>
+                                    <p class="card-text">Autores: Mounir Touzani e Christophe Ponsand</p>
+                                    <p class="card-text">TAGs: Diagrama. Modelo.</p>
+                                    <p class="card-text">Descrição: Os autores proporam um modelo capaz de realizar modelos voltados para a integração e análise dos requisitos, graças ao Sistema de Informação Geográfica (GIS), com o intuito principal de detectar problemas em qualquer fase do processo. Utiliza como modelos a Engenharia de Requisitos Orientada por Objetivos (GORE), o conceito de Manter Todos os Objetivos Satisfeitos (KAOS) e modelos em UML.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Key Abstractions for IoT-Oriented Software Engineering <a href="#ref12">[12]</a></h5>
+                                    <p class="card-text">Autores: Franco Zambonelli</p>
+                                    <p class="card-text">TAGs: Diagrama.</p>
+                                    <p class="card-text">Descrição: Através de um estudo de caso, visa reforçar o processo de desenvolvimento da IoT em três passos (análise, elaboração do design e desenvolvimento) e baseia-se no diagrama de autores para tal.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Conversion method for user experience design information and software requirement specification<a href="#ref13">[13]</a></h5>
+                                    <p class="card-text">Autores: Ayumi Takeda e Yosuke Hatakeyama</p>
+                                    <p class="card-text">TAGs: Diagrama.</p>
+                                    <p class="card-text">Descrição: Os autores propõem um processo baseado em diagramas UML para elaborar recursos de UX e UXD (Experiência de Usuário) dentro da especificação de requisitos, voltada principalmente para IoT.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Non Functional requirement analysis in IoT based Smart Traffic Management System <a href="#ref19">[19]</a></h5>
+                                    <p class="card-text">Autores: Mahalank et al.</p>
+                                    <p class="card-text">TAGs: Template. Diagrama.</p>
+                                    <p class="card-text">Descrição: Os autores adotam frameworks com três etapas como ferramenta de auxílio para a validação de requisitos e a união de casos de uso voltadas a IoT.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Towards a catalog of conflicts for HCI quality characteristics in UbiComp and IoT applications: Process and first results <a href="#ref6">[6]</a></h5>
+                                    <p class="card-text">Autores: Carvalho et al.</p>
+                                    <p class="card-text">TAGs: Fluxograma. Diagrama.</p>
+                                    <p class="card-text">Descrição: Visando eliminar problemas de inconsistência no levantamentos de requisitos não-funcionais e suas consequências para dispositivos IoT, os autores construiram um processo capaz de eliminar este problema, onde cada etapa é concluída apenas com uma análise documental e um método ou técnica adotado para tal. Além disto, cada etapa do processo é catalogada em um banco de dados para fins de consulta. Como ilustração deste processo, utilizam um diagrama UML atrelado a fluxogramas. </p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">General Software Engineering Methodology for IoT (GSEM-IoT) <a href="ref8">[8]</a></h5>
+                                    <p class="card-text">Autores: Franco Zambonelli.</p>
+                                    <p class="card-text">TAGs: Fluxograma. Diagrama.</p>
+                                    <p class="card-text">Descrição: O estudo de Zambonelli tem por objetivo englobar diversas atividades econômicas através do diagramas de atores. Apesar de não citar diretamente o uso de fluxogramas, Giray et al. <a href="ref9">[9]</a> cruza os cenários elaborados pelo autor com as características de fluxograma.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Intelligent Parking Management by Means of Capability Oriented Requirements Engineering <a href="ref15">[15]</a></h5>
+                                    <p class="card-text">Autores: Hamdi et al.</p>
+                                    <p class="card-text">TAGs: Diagrama. Modelo.</p>
+                                    <p class="card-text">Descrição: Focando no conceito de cidades inteligentes, os autores propõem um processo capaz de atender um sistema de estacionamento (entre vagas disponíveis e ocupadas). Como processo, é utilizado diagramas de atividade, metodologias de elicitação e análise de requisitos, diagramas de casos de uso, em todos os casos, trabalhando em conjunto com a Engenharia de Requisitos Orientada a Capacidade (CORE).</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Stakeholder Identification and Use Case Representation for Internet of Things <a href="#ref24">[24]</a></h5>
+                                    <p class="card-text">Autores: Laplante et al.</p>
+                                    <p class="card-text">TAGs: Diagrama. Modelo.</p>
+                                    <p class="card-text">Descrição: Pensado com o intuito de atender rotinas hospitalares, este processo se baseia na modelagem do sistema através da técnica de <i>rich picture</i>, capaz de identificar stakeholders, estabelecendo requisitos funcionais e não-funcionais, com o auxílio dos diagramas de atores e de casos de uso.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-template" role="tabpanel" aria-labelledby="pills-template-tab">
+                   <div class="row flex-row">
+                        <div class="col-md">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">TrUStAPIS: a trust requirements elicitation method for IoT <a href="#ref16">[16]</a></h5>
+                                    <p class="card-text">Autores: Davide Ferraris e Carmen Fernandez-Gago</p>
+                                    <p class="card-text">TAGs: Template.</p>
+                                    <p class="card-text">Descrição: Utiliza métodos de elicitação e especificação de requisitos para uma descrição detalhada do sistema, a fim de reforçar a validação. Para tal, as modelagens e templates em JSON auxiliam na elaboração deste processo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Uma Tecnologia para Apoiar a Engenharia de Requisitos de Sistemas de Software IoT <a href="#ref17">[17]</a></h5>
+                                    <p class="card-text">Autores: Silva et al.</p>
+                                    <p class="card-text">TAGs: Documentação. Template.</p>
+                                    <p class="card-text">Descrição: Com base nas técnicas SCENARI<small>oT</small> (cenários baseados em casos de uso) e SCENAR<small>IoT</small>CHECK, os autores disponibilizam templates para preenchimento, sendo úteis para a elaboração de um documento de software.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-framework" role="tabpanel" aria-labelledby="pills-framework-tab">
+                    <div class="row flex-row">
+                        <div class="col-md">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">An Improved RE Framework for IoT-Oriented Smart Applications using Integrated Approach <a href="#ref18">[18]</a></h5>
+                                    <p class="card-text">Autores: Kaleem et al.</p>
+                                    <p class="card-text">TAGs: Framework.</p>
+                                    <p class="card-text">Descrição: Através de frameworks, as técnicas de validação (como o brainstorming) permitem definir métricas para um software voltado a IoT</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">An Evidence-Based Framework for Supporting the Engineering of IoT Software Systems Mid-stage Research <a href="#ref19">[19]</a></h5>
+                                    <p class="card-text">Autora: Rebeca Motta</p>
+                                    <p class="card-text">TAGs: Framework.</p>
+                                    <p class="card-text">Descrição: Através de um framework contendo três etapas, este processo busca reforçar a validação de requisitos de um dispositivo IoT de forma a eliminar possíveis fragilidades.</p>
+                                </div>
+                            </div>
+                         </div>
+                        <div class="col-md">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Non Functional requirement analysis in IoT based Smart Traffic Management System <a href="#ref20">[20]</a></h5>
+                                    <p class="card-text">Autores: Mahalank et al.</p>
+                                    <p class="card-text">TAGs: Framework. Diagrama.</p>
+                                    <p class="card-text">Descrição: Os autores adotam frameworks com três etapas como ferramenta de auxílio para a validação de requisitos e a união de casos de uso voltadas a IoT.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Horizontal Requirement Engineering in Integration of Multiple IoT Use Cases of City Platform as a Service <a href="#ref21">[21]</a></h5>
+                                    <p class="card-text">Autor: Toshihiko Yamakami</p>
+                                    <p class="card-text">TAGs: Framework.</p>
+                                    <p class="card-text">Descrição: Adota um framework para auxiliar o design e unir os casos de uso dentro de sistemas em IoT. Este framework dispõe de três etapas de identificação (interação entre casos de uso, coordenação e impacto), podendo ser agregado tabelas, formulários ou outros métodos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+                 <div class="tab-pane fade" id="pills-documentacao" role="tabpanel" aria-labelledby="pills-documentacao-tab">
+                    <div class="row flex-row">
+                         <div class="col-md">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Uma Tecnologia para Apoiar a Engenharia de Requisitos de Sistemas de Software IoT <a href="#ref17">[17]</a></h5>
+                                    <p class="card-text">Autores: Silva et al.</p>
+                                    <p class="card-text">TAGs: Documentação. Template.</p>
+                                    <p class="card-text">Descrição: Com base nas técnicas SCENARI<small>oT</small> (cenários baseados em casos de uso) e SCENAR<small>IoT</small>CHECK, os autores disponibilizam templates para preenchimento, sendo úteis para a elaboração de um documento de software.
+                                    </p>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="col-md">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Design Science and ThinkLets as an Holistic Approach to Design IoT/IoS Systems <a href="#ref25">[25]</a></h5>
+                                    <p class="card-text">Autores: Reinhard Bernsteiner e Stephan Schlögl</p>
+                                    <p class="card-text">TAGs: Documentação. Outros.</p>
+                                    <p class="card-text">Descrição: Os autores utilizam a metodologia Design Science Reseach e a ferramenta ThinkLets para a criação de uma documentação detalhada de todo o sistema.</p>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                 </div>
+
+                 <div class="tab-pane fade" id="pills-modelos" role="tabpanel" aria-labelledby="pills-modelos-tab">
+                    <div class="row flex-row">
+                         <div class="col-md-4">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">TrUStAPIS: a trust requirements elicitation method for IoT <a href="#ref16">[16]</a></h5>
+                                    <p class="card-text">Autores: Davide Ferraris e Carmen Fernandez-Gago</p>
+                                    <p class="card-text">TAGs: Template.</p>
+                                    <p class="card-text">Descrição: Utiliza métodos de elicitação e especificação de requisitos para uma descrição detalhada do sistema, a fim de reforçar a validação. Para tal, as modelagens e templates em JSON auxiliam na elaboração deste processo.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Modeling IoT aplications with SysML4IoT <a href="#ref5">[5]</a></h5>
+                                    <p class="card-text">Autores: Costa et al.</p>
+                                    <p class="card-text">TAGs: Fluxograma. Modelo.</p>
+                                    <p class="card-text">Descrição: Artigo voltado a resolução de problemas críticos que podem ocorrer na área de design, como a diversidade de meios para realizar o design gráfico e a falta de processos capazes de colher, em detalhes, os requisitos levantados por clientes. Para solucionar este imbróglio, os autores sugerem um processo que se baseia em três modelos: o primeiro, voltado à elicitação; o segundo, utilizando tabelas para análise de habilidades e responsabilidades dos stakeholders e; por último, adota o IoT DevProcess, desenvolvido com o intuito de solucionar a falta de métodos, conforme resolução SO/IEC/IEEE 15288:2015.</p>
+                                </div>
+                            </div>
+                         </div>
+
+                         <div class="col-md-4">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Specifying Functional Requirements and QoS Parameters for IoT Systems <a href="#ref22">[22]</a></h5>
+                                    <p class="card-text">Autores: Costa et al.</p>
+                                    <p class="card-text">TAGs: Modelo.</p>
+                                    <p class="card-text">Descrição: Voltado para a qualidade do software (QoS), a IoT-RML, acrônimo para Linguagem de Modelagem de Requisitos (RML), realiza a especificação e modela os requisitos com o intuito de encontrar possíveis inconsistências. Para a representação destes modelos, utilizam a linguagem SysML.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Detecting IoT applications opportunities and requirements elicitation: A design thinking based approach <a href="#ref23">[23]</a></h5>
+                                    <p class="card-text">Autores: Dantas et al.</p>
+                                    <p class="card-text">TAGs: Diagrama. Modelo. Outros.</p>
+                                    <p class="card-text">Descrição: Utilizando o Design Thinking, seu processo utiliza modelos iterativos e não-lineares, proposto por Rehman et al <a href="#ref1">[1]</a>. Além disto, os autores utilizam três metodologias, como o brainstorming, documentação e diagramas de afinidades dos usuários e clientes.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Stakeholder Identification and Use Case Representation for Internet of Things <a href="#ref24">[24]</a></h5>
+                                    <p class="card-text">Autores: Laplante et al.</p>
+                                    <p class="card-text">TAGs: Diagrama. Modelo.</p>
+                                    <p class="card-text">Descrição: Pensado com o intuito de atender rotinas hospitalares, este processo se baseia na modelagem do sistema através da técnica de <i>rich picture</i>, capaz de identificar stakeholders, estabelecendo requisitos funcionais e não-funcionais, com o auxílio dos diagramas de atores e de casos de uso.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="col-md-4">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Towards Modelling and Analysis of Spatial and Temporal Requirements <a href="#ref11">[11]</a></h5>
+                                    <p class="card-text">Autores: Mounir Touzani e Christophe Ponsand</p>
+                                    <p class="card-text">TAGs: Diagrama. Modelo.</p>
+                                    <p class="card-text">Descrição: Os autores proporam um modelo capaz de realizar modelos voltados para a integração e análise dos requisitos, graças ao Sistema de Informação Geográfica (GIS), com o intuito principal de detectar problemas em qualquer fase do processo. Utiliza como modelos a Engenharia de Requisitos Orientada por Objetivos (GORE), o conceito de Manter Todos os Objetivos Satisfeitos (KAOS) e modelos em UML.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Intelligent Parking Management by Means of Capability Oriented Requirements Engineering <a href="ref15">[15]</a></h5>
+                                    <p class="card-text">Autores: Hamdi et al.</p>
+                                    <p class="card-text">TAGs: Diagrama. Modelo.</p>
+                                    <p class="card-text">Descrição: Focando no conceito de cidades inteligentes, os autores propõem um processo capaz de atender um sistema de estacionamento (entre vagas disponíveis e ocupadas). Como processo, é utilizado diagramas de atividade, metodologias de elicitação e análise de requisitos, diagramas de casos de uso, em todos os casos, trabalhando em conjunto com a Engenharia de Requisitos Orientada a Capacidade (CORE).</p>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                 </div>
+
+                 <div class="tab-pane fade" id="pills-outros" role="tabpanel" aria-labelledby="pills-outros-tab">
+                    <div class="row flex-row">
+                         <div class="col-md-4">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Design Science and ThinkLets as an Holistic Approach to Design IoT/IoS Systems <a href="#ref25">[25]</a></h5>
+                                    <p class="card-text">Autores: Reinhard Bernsteiner e Stephan Schlögl</p>
+                                    <p class="card-text">TAGs: Documentação. Outros.</p>
+                                    <p class="card-text">Descrição: Os autores utilizam a metodologia Design Science Reseach e a ferramenta ThinkLets para a criação de uma documentação detalhada de todo o sistema.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">IoT Composer: Composition and Deployment of IoT Applications <a href="#ref26">[26]</a></h5>
+                                    <p class="card-text">Autores: Krishna et al.</p>
+                                    <p class="card-text">TAGs: Outros.</p>
+                                    <p class="card-text">Descrição: Voltado para atender usuários finais e auxiliar a programação de dispositivos IoT, os autores propõem uma interface Web utilizando a Linguagem de Especificação LOTOS, bem como uma interface gráfica que atenda aos pedidos do usuário.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <br>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Detecting IoT applications opportunities and requirements elicitation: A design thinking based approach <a href="#ref23">[23]</a></h5>
+                                    <p class="card-text">Autores: Dantas et al.</p>
+                                    <p class="card-text">TAGs: Diagrama. Modelo. Outros.</p>
+                                    <p class="card-text">Descrição: Utilizando o Design Thinking, seu processo utiliza modelos iterativos e não-lineares, proposto por Rehman et al <a href="#ref1">[1]</a>. Além disto, os autores utilizam três metodologias, como o brainstorming, documentação e diagramas de afinidades dos usuários e clientes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+            </div>
+            <br>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <hr>
+            <h2>Referências</h2>
+            <p id="ref1" name="Referência 1">Rehman, Tousif ur, Muhammad Naeem Ahmed Khan e Naveed Riaz: Analysis of requirement engineering processes, tools/techniques and methodologies. International Journal of Information Technology and Computer Science (IJITCS), 5(3):40, 2013. <a href="http://j.mecs-press.net/ijitcs/ijitcs-v5-n3/IJITCS-V5-N3-5.pdf" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref2" name="Referência 2">Pohl, K. e C. Rupp:Requirements Engineering Fundamentals: A Study Guide forthe Certified Professional for Requirements Engineering Exam - Foundation Level - IREB compliant. Rocky Nook, 2011, ISBN 9781457111921. <a href="https://www.amazon.com/Requirements-Engineering-Fundamentals-Professional-Foundation/dp/193753877X" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref3" name="Referência 3">Silva, Danyllo, Taisa Guidini Gonçalves e Ana Regina C da Rocha:A requirements engineering process for iot systems. Em Proceedings of the XVIII Brazilian symposium on software quality, páginas 204–209, 2019. <a href="https://doi.org/10.1145/3364641.3364664" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref4" name="Referência 4">Sousa, Amanda Oliveira de, Anderson G. Uchôa, Eduardo Fernandes, Carla I. M.Bezerra, José Maria Monteiro e Rossana M. C. Andrade: REM4DSPL: A requirements engineering method for dynamic software product lines. Em Albuquerque,Adriano Bessa e Ana Luiza Bessa de Paula Barros (editores): Proceedings of the XVIII Brazilian Symposium on Software Quality, SBQS 2019, Fortaleza, Brazil, October 28 - November 1, 2019, páginas 129–138. ACM, 2019. <a href="https://doi.org/10.1145/3364641.3364656" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref5" name="Referência 5">Costa, Bruno, Paulo F Pires e Flávia C Delicato: Modeling iot applications with sysml4iot. Em 2016 42th Euromicro Conference on Software Engineering and Advanced Applications (SEAA), páginas 157–164. IEEE, 2016. <a href="https://ieeexplore.ieee.org/document/7592792" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref6" name="Referência 6">Slama, Dirk, Frank Puhlmann, Jim Morrish e Rishi M Bhatnagar: Enterprise IoT: Strategies and Best practices for connected products and services. " O’Reilly Media, Inc.", 2015. <a href="https://www.amazon.com.br/Enterprise-IoT-Dirk-Slama/dp/1491924837" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref7" name="Referência 7">Patel, Pankesh e Damien Cassou: Enabling high-level application development for the internet of things. J. Syst. Softw., 103:62–84, 2015. <a href="https://doi.org/10.1016/j.jss.2015.01.027" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref8" name="Referência 8">Zambonelli, Franco: Towards a general software engineering methodology for the internet of things. arXiv preprint arXiv:1601.05569, 2016. <a href="https://arxiv.org/abs/1601.05569" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref9" name="Referência 9">Giray, Gorken, Tekinerdoğan, Bedir, Eray Tüzün: IoT system development methods. Em Internet of things challenges, advances, and applications, páginas 141–159. Chapman & Hall/CRC Press, 2018. <a href="http://dx.doi.org/10.1201/9781315155005-7" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref10" name="Referência 10">Reggio, Gianna: A uml-based proposal for iot system requirements specification. Em Proceedings of the 10th international workshop on modelling in software engineering,páginas 9–16, 2018. <a href="https://dl.acm.org/doi/10.1145/3193954.3193956" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref11" name="Referência 11">Touzani, Mounir e Christophe Ponsard: Towards modelling and analysis of spatial and temporal requirements. Em 2016 IEEE 24th International Requirements Engineering Conference (RE), páginas 389–394. IEEE, 2016. <a href="https://doi.org/10.1109/RE.2016.60" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref12" name="Referência 12">Zambonelli, Franco: Key abstractions for iot-oriented software engineering. IEEE Softw., 34(1):38–45, 2017. <a href="https://doi.org/10.1109/MS.2017.3" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref13" name="Referência 13">Takeda, Ayumi e Yosuke Hatakeyama: Conversion method for user experience design information and software requirement specification. Em International Conference of Design, User Experience, and Usability, páginas 356–364. Springer, 2016. <a href="https://link.springer.com/chapter/10.1007/978-3-319-40409-7_34" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref14" name="Referência 14">Curumsing, Maheswaree Kissoon, Niroshinie Fernando, Mohamed Abdelrazek, Rajesh Vasa, Kon Mouzakis e John Grundy: Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. Journal of Systems and Software, 147:215–229, 2019, ISSN 0164-1212. <a href="https://www.sciencedirect.com/science/article/pii/S0164121218301341" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref15" name="Referência 15">Hamdi, Mohamed Salah, Adnane Ghannem, Pericles Loucopoulos, Evangelia Kavaklie Hany H. Ammar: Intelligent parking management by means of capability oriented requirements engineering. Em Wotawa, Franz, Gerhard Friedrich, Ingo Pill, Roxane Koitz-Hristov e Moonis Ali (editores): Advances and Trends in Artificial Intelligence. From Theory to Practice - 32nd International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems, IEA/AIE 2019, Graz, Austria, July 9-11, 2019, Proceedings, volume 11606 de Lecture Notes in Computer Science, páginas 158–172. Springer, 2019. <a href="https://doi.org/10.1007/978-3-030-22999-3_15" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref16" name="Referência 16">Ferraris, Davide e Carmen Fernandez-Gago: Trustapis: a trust requirements elicitation method for iot. International Journal of Information Security, 19(1):111–127,2020. <a href="https://link.springer.com/article/10.1007/s10207-019-00438-x" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref17" name="Referência 17">Silva, Danyllo, Bruno Pedraça de Souza, Taisa Guidini Gonçalves e Guilherme Horta Travassos: Uma tecnologia para apoiar a engenharia de requisitos de sistemas desoftware iot. Em Ayala, Claudia P., Leonardo Murta, Daniela Soares Cruzes, Eduardo Figueiredo, Carla Silva, Jose Luis de la Vara, Breno de França, Martín Solari, Guilherme Horta Travassos e Ivan Machado (editores): Proceedings of the XXIII Iberoamerican Conference on Software Engineering, CIbSE 2020, Curitiba, Paraná, Brazil, November 9-13, 2020, páginas 342–355. Curran Associates, 2020. <a href="http://cibse2020.ppgia.pucpr.br/images/artigos/9/S09_P3.pdf" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref18" name="Referência 18">Kaleem, S., S. Ahmed, F. Ullah, M. Babar, N. Sheeraz e F. Hadi: An improvedre framewrok for iot-oriented smart applications using integrated approach. Em 2019 International Conference on Advances in the Emerging Computing Technologies (AECT), páginas 1–6, 2020. <a href="https://doi.org/10.1109/AECT47998.2020.9194173" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref19" name="Referência 19">Motta, Rebeca C.: An evidence-based framework for supporting the engineering of iot software systems. SIGSOFT Softw. Eng. Notes, 44(3):22–23, novembro 2019, ISSN 0163-5948. <a href="https://dl.acm.org/doi/10.1145/3356773.3356795" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref20" name="Referência 20">Mahalank, Shubham N, Keertikumar B Malagund e RM Banakar: Non functional requirement analysis in iot based smart traffic management system. Em 2016 International Conference on Computing Communication Control and automation (ICCUBEA), páginas 1–6. IEEE, 2016. <a href="https://doi.org/10.1109/AECT47998.2020.9194173" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref21" name="Referência 21">Yamakami, Toshihiko: Horizontal requirement engineering in integration of multiple iot use cases of city platform as a service. Em 2017 IEEE International Conferenceon Computer and Information Technology (CIT), páginas 292–296. IEEE, 2017. <a href="https://doi.org/10.1109/CIT.2017.54" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref22" name="Referência 22">Costa, Bruno, Paulo F Pires e Flávia C Delicato: Specifying functional requirements and qos parameters for iot systems. Em 2017 IEEE 15th Intl Conf on Dependable, Autonomic and Secure Computing, 15th Intl Conf on Pervasive Intelligence and Computing, 3rd Intl Conf on Big Data Intelligence and Computing and CyberScience and Technology Congress (DASC/PiCom/DataCom/CyberSciTech), páginas 407–414. IEEE, 2017. <a href="https://doi.org/10.1109/DASC-PICom-DataCom-CyberSciTec.2017.83" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref23" name="Referência 23">Dantas, Douglas Lima, Lucia Vilela Leite Filgueiras, Anarosa Alves Franco Brandão, Maria Cristina Machado Domingues e Maria Rosilene Ferreira: Detecting iot applications opportunities and requirements elicitation: A design thinking based approach. Em International Conference on Human-Computer Interaction, páginas 85–100. Springer, 2020. <a href="https://link.springer.com/chapter/10.1007/978-3-030-50344-4_7" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref24" name="Referência 24">Laplante, Nancy L, Phillip A Laplante e Jeffrey M Voas: Stakeholder identification and use case representation for internet-of-things applications in healthcare. IEEEsystems journal, 12(2):1589–1597, 2016. <a href="https://doi.org/10.1109/JSYST.2016.2558449" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref25" name="Referência 25">Bernsteiner, Reinhard e Stephan Schlögl: Design Science and ThinkLets as a holistic approach to design iot/ios systems. Em Uden, Lorna, Wei Lu e I-Hsien Ting (editores): Knowledge Management in Organizations - 12th International Conference, KMO 2017, Beijing, China, August 21-24, 2017, Proceedings, volume 731 de Communications in Computer and Information Science, páginas 520–533. Springer, 2017. <a href="https://doi.org/10.1007/978-3-319-62698-7_43" target="_blank">Clique aqui</a> para acessar.</p>
+
+            <p id="ref26" name="Referência 26">Krishna, Ajay, Michel Le Pallec, Radu Mateescu, Ludovic Noirie e Gwen Salaün: Iot composer: composition and deployment of iot applications. Em Atlee, Joanne M., Tevfik Bultan e Jon Whittle (editores): Proceedings of the 41st International Conference on Software Engineering: Companion Proceedings, ICSE 2019, Montreal, QC, Canada, May 25-31, 2019, páginas 19–22. IEEE / ACM, 2019.<a href="https://doi.org/10.1109/ICSE-Companion.2019.00028" target="_blank">Clique aqui</a> para acessar.</p>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <ul class="list-unstyled">
+                    <li>Universidade de Brasília</li>
+                    <li>Instituto de Ciências Exatas</li>
+                    <li>Departamento de Ciência da Computação</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>

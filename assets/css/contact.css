@@ -1,0 +1,183 @@
+header{
+  min-height: 50px;
+}
+
+section{
+  height: calc(100vh - 128px);
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  background-color: silver;
+}
+
+.links{
+  color: gray;
+  text-align: center;
+}
+
+.container{
+  position: relative;
+  top: 8px;
+}
+
+@media (min-width: 250px){
+  iframe{
+    height: 250px; 
+    width: 250px;
+  }
+
+  .img-contact{
+    width: 200px;
+    height: 200px;
+  }
+
+  section{
+    text-align: center;
+
+  }
+
+  footer{
+    position: relative;
+    bottom: calc(100vh - 1240px);
+    padding-top: 8px;
+  }
+  
+}
+
+@media (min-width: 768px){
+  iframe{
+    height: 320px; 
+    width: 700px;
+  }
+
+  .img-contact{
+    width: 200px;
+    height: 200px;
+  }
+
+  h1,h2{
+    text-align: center;
+  }
+
+  section{
+    height: calc(100vh - 144px);
+  }
+
+  footer{
+    position: relative;
+    bottom: calc(100vh - 1015px);
+  }
+
+  body{
+    height: calc(100vh - 250px);
+  }
+
+}
+
+@media (min-width: 992px){
+  iframe{
+    height: 470px; 
+    width: 940px;
+  }
+
+  .img-contact{
+    width: 300px;
+    height: 300px;
+  }
+
+  h1,h2{
+    text-align: center;
+  }
+
+  section{
+    height: calc(100vh - 156px);
+    font-size: 22px;
+  }
+
+  footer{
+    position: relative;
+    bottom: calc(100vh - 1379px);
+  }
+
+  body{
+    height: calc(100vh - 250px);
+  }
+}
+
+@media (min-width: 1200px){
+  iframe{
+    height: 380px; 
+    width: 340px;
+  }
+
+  .img-contact{
+    width: 180px;
+    height: 180px;
+  }
+
+  h2{
+    text-align: left;
+  }
+
+  section{
+    font-size: 18px;
+    display: flex;
+    height: calc(100vh - 154px);
+  }
+
+  .container{
+    text-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer{
+    top: 0px;
+    padding-top: 10px;
+  }
+
+}
+
+@media (min-width: 1400px){
+  iframe{
+    height: 450px; 
+    width: 360px;
+  }
+
+  .img-contact{
+    width: 230px;
+    height: 230px;
+  }
+
+  h2{
+    text-align: left;
+  }
+
+  section{
+    font-size: 18px;
+    display: flex;
+    height: calc(100vh - 154px);
+  }
+
+  .container{
+    text-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer{
+    top: 10px;
+    padding-top: 7px;
+  }
+
+}
+
+.nav-item{
+  display: flex;
+  justify-content: flex-end;
+}
+
