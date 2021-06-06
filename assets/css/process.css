@@ -13,6 +13,10 @@ header{
   transition: 0.3s;
 }
 
+.validado{
+  background-color: rgb(0, 236, 0);
+}
+
 footer{
     background-color: silver;
 
