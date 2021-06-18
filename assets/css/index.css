@@ -2,10 +2,15 @@ header{
     min-height: 55px;
 }
 
+body{
+    display: grid;
+}
+
 section{
     display: grid;
     align-items: center;
     margin-bottom: 12px;
+
 }
 
 footer{
@@ -17,6 +22,20 @@ footer{
     display: flex;
     justify-content: flex-end;
 }
+
+
+@media (min-width: 1024px){
+    section{
+        height: 910px
+    }
+}
+
+@media (min-width: 1300px){
+    section{
+        height: calc(100vh - 35px)
+    }
+}
+
 
 @media (min-width: 1600px){
     section{
