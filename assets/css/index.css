@@ -3,12 +3,14 @@ header{
 }
 
 section{
-
+    display: grid;
+    align-items: center;
+    margin-bottom: 12px;
 }
 
 footer{
     background-color: darkgray;
-    padding-top: 12px;
+    padding-top: 14px;
 }
 
 .nav-item{
@@ -16,3 +18,8 @@ footer{
     justify-content: flex-end;
 }
 
+@media (min-width: 1600px){
+    section{
+        height: calc(100vh - 172px);
+    }
+}
