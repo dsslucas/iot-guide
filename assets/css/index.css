@@ -11,6 +11,7 @@ section{
     display: grid;
     align-items: center;
     margin-bottom: 12px;
+    height: auto;
 
 }
 
@@ -23,8 +24,6 @@ footer{
     display: flex;
     justify-content: flex-end;
 }
-
-
 @media (min-width: 1024px){
     section{
         height: 910px
@@ -33,8 +32,9 @@ footer{
 
 @media (min-width: 1300px){
     section{
-        height: calc(100vh - 35px)
+        height: auto
     }
+
 }
 
 
@@ -43,3 +43,4 @@ footer{
         height: calc(100vh - 172px);
     }
 }
+
