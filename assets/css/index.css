@@ -16,7 +16,7 @@ section{
 }
 
 footer{
-    background-color: black;
+    background-color: #333333;
     color: white;
     padding: 5px;
     display: flex;
