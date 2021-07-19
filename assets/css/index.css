@@ -16,8 +16,15 @@ section{
 }
 
 footer{
-    background-color: darkgray;
-    padding-top: 14px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: flex;
+
+}
+
+footer div{
+    margin-right: 6px;
 }
 
 .nav-item{
@@ -43,4 +50,13 @@ footer{
         height: calc(100vh - 172px);
     }
 }
+
+.teste{
+    background-color: yellow;
+}
+
+
+
+  
+  
 
