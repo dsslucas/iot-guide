@@ -8,10 +8,10 @@ body{
 }
 
 section{
-    display: grid;
+    display: flex;
     align-items: center;
     margin-bottom: 12px;
-    height: auto;
+    height: calc(100vh - 102px)
 
 }
 
@@ -20,23 +20,59 @@ footer{
     color: white;
     padding: 5px;
     display: flex;
-
 }
 
 footer div{
-    margin-right: 6px;
+    margin-right: 25px;
 }
 
 .nav-item{
     display: flex;
     justify-content: flex-end;
 }
-@media (min-width: 1024px){
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (max-width: 768px){
     section{
-        height: 910px
+        height: auto;
+    }
+    footer{
+        height: auto;
+
+    }
+    footer div{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer div li {
+        list-style-type: none;
     }
 }
 
+@media (max-width: 992px){
+    section{
+        height: auto;
+    }
+    footer{
+        height: auto;
+
+    }
+    footer div{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer div li {
+        list-style-type: none;
+    }
+}
+/*
 @media (min-width: 1300px){
     section{
         height: auto
@@ -49,14 +85,5 @@ footer div{
     section{
         height: calc(100vh - 172px);
     }
-}
-
-.teste{
-    background-color: yellow;
-}
-
-
-
-  
-  
+} */
 
