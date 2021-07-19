@@ -31,11 +31,12 @@ footer div{
     justify-content: flex-end;
 }
 
+/*
 .card-body{
     display: flex;
     flex-direction: column;
 
-}
+} */
 
 @media (max-width: 768px){
     section{
@@ -72,6 +73,8 @@ footer div{
         list-style-type: none;
     }
 }
+
+
 /*
 @media (min-width: 1300px){
     section{
